@@ -1,0 +1,274 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(/assets/images/nupo-deyon-daniel-67ruAEYmp4c-unsplash.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.aside li{
+  list-style-type: none;
+  display: inline;
+  float:right;
+  padding: 5px 20px;
+ 
+}
+.aside li img{
+  width: 30px;
+  border-radius: 50%;
+}
+.aside li a{
+  text-decoration: none;
+  color: black;
+}
+.aside li a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+
+.hero-text {
+  text-align: center;
+  padding: 60px;
+  font-size: 80px;
+  font-family: 700;
+  letter-spacing: -10px;
+}
+@media only screen and (max-width: 320px) {
+  .hero-text {
+    font-size: 3em;
+  }
+}
+
+.blue {
+  text-transform: uppercase;
+  color: blue;
+}
+.red {
+  text-transform: uppercase;
+  color: red;
+}
+.green {
+  text-transform: uppercase;
+  color: green;
+}
+.yellow {
+  text-transform: uppercase;
+  color: yellow;
+}
+
+#exampleInputEmail1{
+  width: 50%;
+  margin-left: 350px;
+  margin-top:-30px;
+  height: 60px;
+  border-radius: 5em;
+  box-shadow: 0px 0px 10px 5px;
+  position: relative;
+}
+#search{
+position: absolute;
+margin-left: 380px;
+margin-top: -35px;
+}
+#mic{
+  position: absolute;
+  margin-left: 959px;
+  margin-top: -33px;
+  }
+  .buttons{
+    margin-left: 500px;
+    
+  }
+  .buttons button{
+    padding: 5px 15px;
+    background-color: hsl(0, 0%, 90%);
+    border: 1px solid #fff;
+    margin-top: 40px;
+    border-radius: 5px;
+  }
+  .buttons button:hover{
+    border: hsl(0, 0%, 60%) solid 1px;
+  }
+  .Bod{
+    text-align: center; 
+    font-size: 16px; 
+    
+    margin-top: 29px;
+  }
+
+.Bod a{
+  text-decoration: none;
+  padding: 0px 5px;
+}
+footer {
+  background-color: hsl(0, 0%, 90%);
+  margin-top: 100px;
+  height: 20vh;
+  overflow-x: hidden;
+
+}
+.one{
+margin-left: 30px;
+padding-top: 20px;
+}
+.two {
+  margin-left: 30px;
+}
+
+.two a{
+  text-decoration: none;
+  color: black;
+}
+.two a:hover{
+  text-decoration: underline;
+  color: black;
+}
+.three {
+  margin-left: 150px;
+}
+
+.three a{
+  text-decoration: none;
+  color: black;
+}
+.three a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.four {
+  margin-left: 200px;
+}
+
+.four a{
+  text-decoration: none;
+  color: black;
+}
+.four a:hover{
+  text-decoration: underline;
+  color: black;
+}
+.row {
+  color: hsl(0, 0%, 20%);
+}
+
+
+
+
+/* instagram */
+
+.header{
+  padding: 20px 30px;
+  width: 35%;
+  margin-left: 250px;
+}
+.box1{
+  border: 1px solid hsl(0, 10%, 90%);
+  height: 80vh;
+  background-color: hsl(0, 0%, 100%);
+}
+.insta{
+  font-family: 'Bonheur Royale', cursive;
+  font-weight:900 ;
+  font-size: 80px;
+  text-align: center;
+}
+#number{
+  width: 80%;
+  margin-left: 45px;
+  margin-top: 40px;
+  border: 1px solid hsl(0, 0%, 90%);
+  background-color: hsl(0, 0%, 99%);
+  padding-left: 10px;
+  border-radius: 2px;
+  height: 40px;
+}
+
+#password{
+  width: 80%;
+  margin-left: 45px;
+  margin-top: 10px;
+  border: 1px solid hsl(0, 0%, 90%);
+  background-color: hsl(0, 0%, 99%);
+  padding-left: 10px;
+  border-radius: 2px;
+  height: 40px;
+}
+#btnb{
+  width: 80%;
+  margin-left: 45px;
+  margin-top: 40px;
+  border: 1px solid hsl(0, 0%, 90%);
+  background-color: hsl(203, 92%, 85%);
+  padding-left: 10px;
+  border-radius: 3px;
+  height: 40px;
+  color: #fff; 
+}
+#divider {
+  top : 800px;
+  left : 9px;
+  width : 138px;
+  text-align : center;
+  margin-left: 50px;
+  border-bottom : 1px solid #888888;
+  }
+
+  .unity{
+    margin-top: -12px;
+    width : 90px;
+    text-align : center;
+    margin-left: 160px;
+    color: #888888;
+    text-transform: uppercase;
+    font-size: 16px;
+    } 
+   .liner {
+
+    margin-top : -41px;
+    float: right;
+    width : 138px;
+    margin-right: 50px;
+    border-bottom : 1px solid #888888;
+    }
+   .fbk{
+     margin-left:100px;
+     margin-top: 40px;
+    
+   }
+   .fbk a{
+     text-decoration: none;
+     font-weight: 500;
+     text-transform: capitalize;
+     color: hsl(240, 100%, 20%);
+   } 
+
+.forgot{
+  text-align: center;
+}
+.box2{
+  border: 1px solid hsl(0, 10%, 90%);
+  height: 10vh;
+  background-color: hsl(0, 0%, 100%);
+  width: 30.5%;
+  margin-left: 280px;
+  margin-top: -10px;
+}
+.last{
+  text-align: center;
+  margin-top: 20px;
+}
+.last a{
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
